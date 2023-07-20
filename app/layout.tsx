@@ -1,15 +1,17 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { Berkshire_Swash } from 'next/font/google'
+import { Berkshire_Swash } from "next/font/google";
 
 const berkshire = Berkshire_Swash({
-  weight: '400',
-  subsets: ['latin'],
-})
+  weight: "400",
+  subsets: ["latin"],
+});
 export const metadata: Metadata = {
   title: "Mit Weds Poonam",
   description: "Love from Mit & Poonam",
 };
+
+const date: number = new Date().getFullYear();
 
 export default function RootLayout({
   children,

@@ -1,9 +1,8 @@
-
-import Functions from "./Components/Functions/page";
+import WeddingCard from "./Components/wedding";
 export default function Home() {
   return (
     <>
-      <Functions />
+      <WeddingCard />
     </>
   );
 }

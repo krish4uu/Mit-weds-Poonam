@@ -1,13 +1,11 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { berkshire } from "./font";
+import { elite } from "./font";
 
 export const metadata: Metadata = {
   title: "Mit Weds Poonam",
   description: "Love from Mit & Poonam",
 };
-
-const date: number = new Date().getFullYear();
 
 export default function RootLayout({
   children,
@@ -16,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={berkshire.className}>{children}</body>
+      <body className={elite.className}>{children}</body>
     </html>
   );
 }

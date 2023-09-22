@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 body {
-  color: #e7faf6;
-  background: linear-gradient(to bottom, #29375b, #29595b);
+  color: rgb(9, 61, 63);
+  width: auto;
+  background: linear-gradient(to bottom, #7dc0c6, #679e9b);
+  background-image: url('../public/weeding-back.webp');
+  background-size: cover;
+  background-attachment: fixed;
 }

@@ -1,6 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { elite } from "./font";
+import { custom_font } from "./font";
 
 export const metadata: Metadata = {
   title: "Mit Weds Poonam",
@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={elite.className}>{children}</body>
+      <body className={custom_font.className}>{children}</body>
     </html>
   );
 }

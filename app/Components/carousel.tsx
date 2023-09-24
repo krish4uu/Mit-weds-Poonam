@@ -38,20 +38,20 @@ export default function Carousel({ images, delay = 4000 }: weddingImgType) {
     setCurrentSlide(newSlide);
   };
 
-  // useEffect(() => {
-  //   resetTimeout();
-  //   timeoutRef.current = setTimeout(
-  //     () =>
-  //       setCurrentSlide((prevIndex) =>
-  //         prevIndex === images.length - 1 ? 0 : prevIndex + 1
-  //       ),
-  //     delay
-  //   );
+  useEffect(() => {
+    resetTimeout();
+    timeoutRef.current = setTimeout(
+      () =>
+        setCurrentSlide((prevIndex) =>
+          prevIndex === images.length - 1 ? 0 : prevIndex + 1
+        ),
+      delay
+    );
 
-  //   return () => {
-  //     resetTimeout();
-  //   };
-  // }, [ currentSlide]);
+    return () => {
+      resetTimeout();
+    };
+  }, [currentSlide]);
   return (
     <>
       <div className="relative w-full max-w-5xl items-center justify-center p-2">

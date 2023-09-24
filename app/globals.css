@@ -2,11 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  color: rgb(9, 61, 63);
-  width: auto;
-  background: linear-gradient(to bottom, #7dc0c6, #679e9b);
-  background-image: url('../public/weeding-back.webp');
+
+
+.bg {    
+  background: url("../public/back-4.JPG");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+}
+
+.content {
+  color: rgb(53, 128, 136);
+  position: absolute;
+  left: 50%; 
+  transform: translateX(-50%);
+  width: 100vw;
+}
+
+.video {
+ max-width: "300px";
+ height: "300px";
+}
+
+@media (min-width: 600px) {
+  .bg {
+    background: url("../public/weeding-back.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+  }
 }

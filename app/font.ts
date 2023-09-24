@@ -1,7 +1,8 @@
 
-import { Special_Elite } from "next/font/google";
 
-export const elite = Special_Elite({
+import { Anaheim } from "next/font/google";
+
+  export const custom_font = Anaheim({
     weight: "400",
     subsets: ["latin"],
   });

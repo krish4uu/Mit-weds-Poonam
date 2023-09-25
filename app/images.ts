@@ -13,5 +13,9 @@
         id: 3,
         src: "/usa/mit-3.webp",
       },
+      {
+        id: 4,
+        src: "/usa/mit-4.webp",
+      },
     ],
   };

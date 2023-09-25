@@ -1,8 +1,6 @@
+import { Orbitron } from "next/font/google";
 
-
-import { Anaheim } from "next/font/google";
-
-  export const custom_font = Anaheim({
-    weight: "400",
+  export const custom_font = Orbitron({
+    weight: "500",
     subsets: ["latin"],
   });

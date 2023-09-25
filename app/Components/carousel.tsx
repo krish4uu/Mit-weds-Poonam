@@ -74,7 +74,6 @@ export default function Carousel({ images, delay = 4000 }: weddingImgType) {
                     alt="Wedding Images"
                     fill={true}
                     style={{ objectFit: "contain" }}
-                    loading="lazy"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
                 );

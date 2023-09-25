@@ -7,12 +7,12 @@ export default function FunctionsCard() {
       <div className="flex flex-col justify-center place-items-center mt-6">
         <div className="flex ">
           <div className=" w-full max-w-5xl items-center justify-between text-sm lg:flex">
-            <h1 className={`mb-3 text-4xl font-semibold p-4`}>Functions</h1>
+            <h1 className={`mb-3 text-4xl font-semibold p-4 dark:bg-slate-950/30 rounded-3xl sm:bg-transparent`}>Functions</h1>
           </div>
         </div>
-        <div className="mb-32 grid gap-4 text-center mb-0 md:grid-cols-2 lg:grid-cols-3 lg:text-left">
+        <div className=" grid gap-4 mb-0 md:grid-cols-2 lg:grid-cols-3 sm:text-left">
           {functionDetail.map((item) => (
-            <div className="group rounded-lg border border-transparent px-5 py-4 backdrop-blur-2xl dark:bg-slate-300/30 transition-colors hover:bg-sky-500 hover:bg-sky-500/75  hover:dark:bg-neutral-800/30">
+            <div className="group rounded-3xl border border-transparent px-5 py-4 backdrop-blur-3xl dark:bg-slate-600/30  sm:dark:bg-slate-100/30 transition-colors sm:hover:bg-sky-500 sm:hover:bg-sky-500/75  sm:hover:dark:bg-neutral-800/30">
               <h2 className={`mb-3 text-2xl font-semibold`}>
                 {item.name}
                 <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
@@ -25,53 +25,64 @@ export default function FunctionsCard() {
                 alt={item.imgAlt}
                 width={0}
                 height={0}
-                loading="lazy"
                 sizes="100vw"
                 style={{ width: "18.75rem", height: "auto" }} // optional
               />
-              <div className="flex justify-center item-center pt-2 text-lg">
+              <div className="flex pt-2 text-lg">
                 <ul>
                   <li className="flex p-1">
                     <Image
                       className="rounded-lg"
-                      src="/calender.png"
+                      src="/calendar-lines.png"
                       alt="Calender image"
                       width={0}
                       height={0}
                       loading="lazy"
                       sizes="100vw"
-                      style={{ width: "1.25rem", height: "auto" }} // optional
+                      style={{ width: "2rem", height: "auto" }} // optional
                     />
-                    &nbsp;
-                    <span>{item.date}</span>
+                    <span className="pl-2">{item.date}</span>
                   </li>
                   <li className="flex p-1">
                     <Image
                       className="rounded-lg"
-                      src="/clock1.png"
+                      src="/clock-three.png"
                       alt="Clock image"
                       width={0}
                       height={0}
                       loading="lazy"
                       sizes="100vw"
-                      style={{ width: "1.25rem", height: "auto" }} // optional
+                      style={{ width: "2rem", height: "auto" }} // optional
                     />
-                    &nbsp;
-                    <span>{item.time}</span>
+                    <span className="pl-2">{item.time}</span>
                   </li>
                   <li className="flex p-1">
                     <Image
                       className="rounded-lg"
-                      src="/place.png"
+                      src="/marker-home.png"
                       alt="Address image"
                       width={0}
                       height={0}
                       loading="lazy"
                       sizes="100vw"
-                      style={{ width: "1.25rem", height: "auto" }} // optional
+                      style={{ width: "2rem", height: "auto" }} // optional
                     />
-                    &nbsp;
-                    <span>{item.address}</span>
+                    <span className="pl-2">{item.address}</span>
+                  </li>
+                  <li className="flex p-1">
+                    <a href={item.map} target="blank" className="pt-3 flex">
+                      <span className="pl-2">Click here To Open Map</span>
+                      <Image
+                        className="rounded-lg"
+                        src="/pin.png"
+                        alt="Address image"
+                        width={0}
+                        height={0}
+                        loading="lazy"
+                        sizes="100vw"
+                        style={{ width: "2rem", height: "auto" }} // optional
+                      />
+                    </a>
                   </li>
                 </ul>
               </div>

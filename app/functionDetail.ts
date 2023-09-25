@@ -1,42 +1,47 @@
 export const functionDetail = [
-    {
-        name: 'Mameru',
-        img: '/mahendi.jpeg',
-        imgAlt: 'Mahendi image',
-        date: '0/0/0', 
-        time: '001',
-        address: 'aaaa'
-    },
-    {
-        name: 'Sangeet',
-        img: '/sangeet.jpeg',
-        imgAlt: 'sangeet image',
-        date: '0/0/0', 
-        time: '001',
-        address: 'aaaa'
-    },
-    {
-        name: 'Haldi',
-        img: '/haldi.jpeg',
-        imgAlt: 'Haldi image',
-        date: '0/0/0', 
-        time: '001',
-        address: 'aaaa'
-    },
-    {
-        name: 'Weeding',
-        img: '/weeding.jpeg',
-        imgAlt: 'Weeding image',
-        date: '0/0/0', 
-        time: '001',
-        address: 'aaaa'
-    },
-    {
-        name: 'Reception',
-        img: '/reception.jpeg',
-        imgAlt: 'Reception image',
-        date: '0/0/0', 
-        time: '001',
-        address: 'aaaa'
-    }
-]
+  {
+    name: "Mameru",
+    img: "/mahendi.jpeg",
+    imgAlt: "Mahendi image",
+    date: "23th November 2023",
+    time: "11:00 am",
+    address: "7, Suramya Bunglows",
+    map: "https://maps.app.goo.gl/2qWE8DdfBW1DoTUR8"
+  },
+  {
+    name: "Sangeet",
+    img: "/sangeet.jpeg",
+    imgAlt: "sangeet image",
+    date: "23/11/2023",
+    time: "001",
+    address: "aaaa",
+    map: "https://maps.app.goo.gl/2qWE8DdfBW1DoTUR8"
+  },
+  {
+    name: "Haldi",
+    img: "/haldi.jpeg",
+    imgAlt: "Haldi image",
+    date: "24/11/2023",
+    time: "001",
+    address: "aaaa",
+    map: "https://maps.app.goo.gl/2qWE8DdfBW1DoTUR8"
+  },
+  {
+    name: "Weeding",
+    img: "/weeding.jpeg",
+    imgAlt: "Weeding image",
+    date: "25/11/2023",
+    time: "001",
+    address: "aaaa",
+    map: "https://maps.app.goo.gl/2qWE8DdfBW1DoTUR8"
+  },
+  {
+    name: "Reception",
+    img: "/reception.jpeg",
+    imgAlt: "Reception image",
+    date: "26/11/2023",
+    time: "001",
+    address: "aaaa",
+    map: "https://maps.app.goo.gl/2qWE8DdfBW1DoTUR8"
+  },
+];

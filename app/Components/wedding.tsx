@@ -34,7 +34,7 @@ export default function WeddingCard() {
         </div>
         <Carousel images={usaImg.img} delay={4000} />
         <FunctionsCard />
-        <footer className="w-full justify-center flex m-4 pb-4 text-white font-semibold sm:text-inherit">
+        <footer className="w-full justify-center flex m-4 p-3 text-white font-semibold sm:text-inherit backdrop-blur-sm dark:bg-slate-900/30 rounded-xl sm:bg-transparent">
           Developed by Kashyap @{year}
         </footer>
       </div>

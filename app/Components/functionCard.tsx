@@ -26,7 +26,7 @@ export default function FunctionsCard() {
                 width={0}
                 height={0}
                 sizes="100vw"
-                style={{ width: "18.75rem", height: "auto" }} // optional
+                style={{ width: "18rem", height: "14rem" }} // optional
               />
               <div className="flex pt-2 text-lg">
                 <ul>

@@ -1,12 +1,21 @@
 export const functionDetail = [
   {
-    name: "Mameru",
-    img: "/mahendi.jpeg",
-    imgAlt: "Mahendi image",
+    name: "Graha Shanti",
+    img: "/ganpati.webp",
+    imgAlt: "Ganpati image",
     date: "23th November 2023",
     time: "11:00 am",
     address: "7, Suramya Bunglows",
-    map: "https://maps.app.goo.gl/2qWE8DdfBW1DoTUR8"
+    map: "https://maps.app.goo.gl/2qWE8DdfBW1DoTUR8",
+  },
+  {
+    name: "Mameru",
+    img: "/gold.jpeg",
+    imgAlt: "Mameru image",
+    date: "23th November 2023",
+    time: "11:00 am",
+    address: "7, Suramya Bunglows",
+    map: "https://maps.app.goo.gl/2qWE8DdfBW1DoTUR8",
   },
   {
     name: "Sangeet",
@@ -15,16 +24,16 @@ export const functionDetail = [
     date: "23/11/2023",
     time: "001",
     address: "aaaa",
-    map: "https://maps.app.goo.gl/2qWE8DdfBW1DoTUR8"
+    map: "https://maps.app.goo.gl/2qWE8DdfBW1DoTUR8",
   },
   {
     name: "Haldi",
-    img: "/haldi.jpeg",
+    img: "/haldi-1.jpeg",
     imgAlt: "Haldi image",
     date: "24/11/2023",
     time: "001",
     address: "aaaa",
-    map: "https://maps.app.goo.gl/2qWE8DdfBW1DoTUR8"
+    map: "https://maps.app.goo.gl/2qWE8DdfBW1DoTUR8",
   },
   {
     name: "Weeding",
@@ -33,7 +42,7 @@ export const functionDetail = [
     date: "25/11/2023",
     time: "001",
     address: "aaaa",
-    map: "https://maps.app.goo.gl/2qWE8DdfBW1DoTUR8"
+    map: "https://maps.app.goo.gl/2qWE8DdfBW1DoTUR8",
   },
   {
     name: "Reception",
@@ -42,6 +51,6 @@ export const functionDetail = [
     date: "26/11/2023",
     time: "001",
     address: "aaaa",
-    map: "https://maps.app.goo.gl/2qWE8DdfBW1DoTUR8"
+    map: "https://maps.app.goo.gl/2qWE8DdfBW1DoTUR8",
   },
 ];

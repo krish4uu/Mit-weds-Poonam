@@ -1,7 +1,7 @@
 export const functionDetail = [
   {
     name: "Graha Shanti",
-    img: "/ganpati.webp",
+    img: "./ganpati.webp",
     imgAlt: "Ganpati image",
     date: "23th November 2023",
     time: "11:00 am",
@@ -10,7 +10,7 @@ export const functionDetail = [
   },
   {
     name: "Mameru",
-    img: "/gold.jpeg",
+    img: "./gold.jpeg",
     imgAlt: "Mameru image",
     date: "23th November 2023",
     time: "11:00 am",
@@ -19,7 +19,7 @@ export const functionDetail = [
   },
   {
     name: "Sangeet",
-    img: "/sangeet.jpeg",
+    img: "./sangeet.jpeg",
     imgAlt: "sangeet image",
     date: "23/11/2023",
     time: "001",
@@ -28,7 +28,7 @@ export const functionDetail = [
   },
   {
     name: "Haldi",
-    img: "/haldi-1.jpeg",
+    img: "./haldi-1.jpeg",
     imgAlt: "Haldi image",
     date: "24/11/2023",
     time: "001",
@@ -37,7 +37,7 @@ export const functionDetail = [
   },
   {
     name: "Weeding",
-    img: "/weeding.jpeg",
+    img: "./weeding.jpeg",
     imgAlt: "Weeding image",
     date: "25/11/2023",
     time: "001",
@@ -46,7 +46,7 @@ export const functionDetail = [
   },
   {
     name: "Reception",
-    img: "/reception.jpeg",
+    img: "./reception.jpeg",
     imgAlt: "Reception image",
     date: "26/11/2023",
     time: "001",

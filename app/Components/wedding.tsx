@@ -11,7 +11,7 @@ export default function WeddingCard() {
         <div className="flex w-full max-w-5xl items-center justify-center lg:flex mt-12 p-4">
           <Image
             className="rounded-lg"
-            src="../../mit-2.png"
+            src="./mit-2.png"
             alt="Mit and Poonam image"
             width={0}
             height={0}

@@ -33,7 +33,7 @@ export default function FunctionsCard() {
                   <li className="flex p-1">
                     <Image
                       className="rounded-lg"
-                      src="../../calendar-lines.png"
+                      src="./calendar-lines.png"
                       alt="Calender image"
                       width={0}
                       height={0}
@@ -46,7 +46,7 @@ export default function FunctionsCard() {
                   <li className="flex p-1">
                     <Image
                       className="rounded-lg"
-                      src="../../clock-three.png"
+                      src="./clock-three.png"
                       alt="Clock image"
                       width={0}
                       height={0}
@@ -59,7 +59,7 @@ export default function FunctionsCard() {
                   <li className="flex p-1">
                     <Image
                       className="rounded-lg"
-                      src="../../marker-home.png"
+                      src="./marker-home.png"
                       alt="Address image"
                       width={0}
                       height={0}
@@ -74,7 +74,7 @@ export default function FunctionsCard() {
                       <span className="pl-2">Click here To Open Map</span>
                       <Image
                         className="rounded-lg"
-                        src="../../pin.png"
+                        src="./pin.png"
                         alt="Address image"
                         width={0}
                         height={0}

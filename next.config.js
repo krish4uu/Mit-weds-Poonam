@@ -2,7 +2,11 @@
 const nextConfig = {
     trailingSlash: true,
     output: 'export',
-    images: { unoptimized: true } 
+    reactStrictMode: true,
+    images: {
+      loader: "akamai",
+      path: "/",
+    },
 };
 
 module.exports = nextConfig;

@@ -1,17 +1,6 @@
 export const functionDetail = [
   {
     id: 1,
-    name: "Graha Shanti",
-    img: "./ganpati.webp",
-    imgAlt: "Ganpati image",
-    date: "23th November 2023",
-    time: "11:00 am",
-    address: "7, Suramya Bungalows",
-    map: "https://maps.app.goo.gl/Xt1feBqLXjbR7LVg7",
-    countdownTime: "November 23, 2023 11:00:00"
-  },
-  {
-    id: 2,
     name: "Mameru",
     img: "./gold.jpeg",
     imgAlt: "Mameru image",
@@ -20,6 +9,17 @@ export const functionDetail = [
     address: "7, Suramya Bungalows",
     map: "https://maps.app.goo.gl/Xt1feBqLXjbR7LVg7",
     countdownTime: "November 23, 2023 19:00:00"
+  },
+  {
+    id: 2,
+    name: "Graha Shanti",
+    img: "./ganpati.webp",
+    imgAlt: "Ganpati image",
+    date: "23th November 2023",
+    time: "11:00 am",
+    address: "7, Suramya Bungalows",
+    map: "https://maps.app.goo.gl/Xt1feBqLXjbR7LVg7",
+    countdownTime: "November 23, 2023 11:00:00"
   },
   {
     id: 3,

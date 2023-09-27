@@ -2,16 +2,22 @@ import Image from "next/image";
 import FunctionsCard from "./functionCard";
 import Carousel from "./carousel";
 import { usaImg } from "../images";
+import CountdownTimer from "./countdownTimer";
+import { functionDetail } from "../functionDetail";
 
 export default function WeddingCard() {
   const year: number = new Date().getFullYear();
+  const weddingObj = functionDetail.find((obj) => obj.id === 5);
+  const targetDateTime = weddingObj?.countdownTime;
+  // const eventName = weddingObj?.name
+
   return (
     <>
       <div className=" flex min-h-screen z-10 flex-col items-center justify-between p-2">
         <div className="flex w-full max-w-5xl items-center justify-center lg:flex mt-12 p-4">
           <Image
             className="rounded-lg"
-            src="./mit-2.png"
+            src="./mit-poonam.webp"
             alt="Mit and Poonam image"
             width={0}
             height={0}
@@ -20,21 +26,16 @@ export default function WeddingCard() {
             style={{ width: "50rem", height: "auto" }} // optional
           />
         </div>
-        <div className="flex ">
-          <div className="w-full max-w-5xl items-center justify-center lg:flex flex-col">
-            <h1 className={`lg:text-4xl font-semibold p-2 text-xl backdrop-blur-2xl dark:bg-slate-300/30 rounded-lg border border-transparent`}>
-              ॐ श्रीम गम सौभाग्य गणपतये वर्वर्द सर्वजन्म में वषमान्य नमः॥
-            </h1>
-            {/* <h4 className="font-semibold text-2xl p-2">
-              We ask for good fortune and many blessings and wishes for our
-              current life and future lives. We bow in Homage to Lord Ganesha
-              who blesses us with long lives, health and happiness.
-            </h4> */}
-          </div>
+        <div className="flex flex-col justify-center item-center text-3xl sm:text-4xl p-4 w-full pl-8 md:w-fit font-semibold  dark:bg-slate-950/30 rounded-3xl sm:bg-transparent">
+          <CountdownTimer
+            targetDateTime={targetDateTime}
+            event="Wedding"
+          />
         </div>
-        <Carousel images={usaImg.img} delay={4000} />
+
+        <Carousel images={usaImg.img} delay={2000} />
         <FunctionsCard />
-        <footer className="w-full justify-center flex m-4 p-3 text-white font-semibold sm:text-inherit backdrop-blur-sm dark:bg-slate-900/30 rounded-xl sm:bg-transparent">
+        <footer className="w-full justify-center flex m-4 p-3 text-white text-xl font-semibold sm:text-inherit backdrop-blur-sm dark:bg-slate-900/30 rounded-xl sm:bg-transparent">
           Developed by Kashyap @{year}
         </footer>
       </div>

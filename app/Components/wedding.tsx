@@ -26,7 +26,7 @@ export default function WeddingCard() {
             style={{ width: "50rem", height: "auto" }} // optional
           />
         </div>
-        <div className="flex flex-col justify-center item-center text-3xl sm:text-4xl p-4 w-full pl-8 md:w-fit font-semibold  dark:bg-slate-950/30 rounded-3xl sm:bg-transparent">
+        <div className="flex flex-col justify-center item-center text-3xl sm:text-4xl p-4 w-full pl-6 md:w-fit font-semibold  dark:bg-slate-950/30 rounded-3xl sm:bg-transparent">
           <CountdownTimer
             targetDateTime={targetDateTime}
             event="Wedding"

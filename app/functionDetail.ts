@@ -5,7 +5,7 @@ export const functionDetail = [
     img: "./gold.jpeg",
     imgAlt: "Mameru image",
     date: "23th November 2023",
-    time: "4:30 pm",
+    time: "6:00 pm",
     address: "7, Suramya Bungalows",
     map: "https://maps.app.goo.gl/Xt1feBqLXjbR7LVg7",
     countdownTime: "November 23, 2023 16:30:00"
@@ -38,7 +38,7 @@ export const functionDetail = [
     img: "./haldi-1.jpeg",
     imgAlt: "Haldi image",
     date: "25th November 2023",
-    time: "3:00 pm",
+    time: "1:30 pm",
     address: "7, Suramya Bungalows",
     map: "https://maps.app.goo.gl/Xt1feBqLXjbR7LVg7",
     countdownTime: "November 25, 2023 15:00:00"
@@ -49,7 +49,7 @@ export const functionDetail = [
     img: "./weeding.jpeg",
     imgAlt: "Wedding image",
     date: "25th November 2023",
-    time: "8:00 pm",
+    time: "7:15 pm",
     address: "7, Suramya Bungalows",
     map: "https://maps.app.goo.gl/Xt1feBqLXjbR7LVg7",
     countdownTime: "November 25, 2023 20:00:00"

@@ -64,7 +64,7 @@ const CountdownTimer: React.FC<CountdownTimerProps> = ({
         <div className="flex pb-1 mb-1 ">
           {days}d {hours}h {minutes}m {seconds}s Remaining
         </div>
-        <div className="flex pb-1 mb-1 ">{event}'s Happening now</div>
+        <div className="flex pb-1 mb-1 ">Thank you for attending {event}</div>
       </div>
     );
   }

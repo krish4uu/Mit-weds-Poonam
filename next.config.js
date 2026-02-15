@@ -8,9 +8,9 @@ const nextConfig = {
     loader: "akamai",
     path: "/",
   },
+  basePath: "/Mit-weds-Poonam", // Add this line to set the base path
 };
 
 module.exports = {
   ...nextConfig,
-  output: 'export',
 };
